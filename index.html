@@ -108,9 +108,9 @@ setInterval(updateCountdown, 1000);
             var googleCalendarUrl = "https://www.google.com/calendar/render?action=TEMPLATE";
             googleCalendarUrl += "&text=" + encodeURIComponent(eventName);
             googleCalendarUrl += "&dates=" + encodeURIComponent(startDate) + "/" + encodeURIComponent(endDate);
-            if (eventLocation) {
-              googleCalendarUrl += "&location=" + encodeURIComponent(eventLocation);
-            }
+            // if (eventLocation) {
+            //   googleCalendarUrl += "&location=" + encodeURIComponent(eventLocation);
+            // }
             googleCalendarUrl += "&ctz=America/Sao_Paulo";
 
             
